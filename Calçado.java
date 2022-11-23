@@ -49,7 +49,7 @@ public class Calçado {
        }
 }
     void aumento (int a){
-        a += v;
+        v = v+(v*a)/100;
         System.out.println("O valor com imposto é: "+a);
     }
 }
